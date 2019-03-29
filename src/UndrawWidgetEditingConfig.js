@@ -1,9 +1,7 @@
 import * as Scrivito from "scrivito";
-import imageWidgetIcon from "../../assets/images/image_widget.svg";
 
 Scrivito.provideEditingConfig("UndrawWidget", {
   title: "Illustration from Undraw",
-  thumbnail: imageWidgetIcon,
 
   attributes: {
     svg: {
