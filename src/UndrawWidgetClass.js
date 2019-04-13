@@ -9,20 +9,19 @@ const UndrawWidget = Scrivito.provideWidgetClass("UndrawWidget", {
         values: [
           "address",
           "agreement",
-          "blogpost",
+          "blog",
           "browser",
           "business-plan",
           "calendar",
           "charts",
-          "coding",
+          "creative-team",
           "dashboard",
           "data",
           "devices",
-          "everywhere",
           "fastloading",
           "hiring",
           "insync",
-          "map-dark",
+          "map",
           "messages",
           "onboarding",
           "organize-resume",
@@ -42,7 +41,6 @@ const UndrawWidget = Scrivito.provideWidgetClass("UndrawWidget", {
           "site-stats",
           "static-assets",
           "tabs",
-          "web-devices"
         ]
       }
     ]

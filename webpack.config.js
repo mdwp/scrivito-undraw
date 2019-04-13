@@ -16,6 +16,7 @@ module.exports = (env, argv) => {
       { from: "../package.json", to: BUILD_PATH },
       { from: "../README.md", to: BUILD_PATH },
       { from: "**/*.css", to: BUILD_PATH },
+      { from: "**/*.svg", to: BUILD_PATH },
     ]),
   ];
   if (argv.mode === "production") {
