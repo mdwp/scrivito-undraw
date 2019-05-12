@@ -3,7 +3,8 @@ import * as Scrivito from "scrivito";
 
 Scrivito.provideComponent('UndrawWidget', ({ widget }) => {
 
-  const cssclass = widget.get('svg') || 'photo';
+  const cssclass = [widget.get('svg') || 'photo'];
+  cssclass.push('clippath');
 
   if (!cssclass.length && Scrivito.isInPlaceEditingActive()) {
     return (
@@ -16,12 +17,12 @@ Scrivito.provideComponent('UndrawWidget', ({ widget }) => {
   return (
           <Scrivito.ContentTag
 
-              className={cssclass}
+              className={cssclass.join(" ")}
               content={widget}
               attribute="svg"
           />
   );
-});
+})
 
 
 
